@@ -6,8 +6,8 @@ function Products({naam, data}) {
 
 
   return (
-    <div className='text-white bg-zinc-800 w-full h-60'>
-      <h1 className={`${a===false ? "text-blue-600" : "text-red-600"}`}>{a === false ? "hello" : "hey"}</h1>
+    <div className='bg-zinc-800 w-full h-60'>
+      <h1 className='text-red-500'>{a === false ? "hello" : "hey"}</h1>
       <button onClick={() => b(!a)} className='bg-green-500 py-3 px-1'>change</button>
 
       {/* <h1>{naam}</h1>
