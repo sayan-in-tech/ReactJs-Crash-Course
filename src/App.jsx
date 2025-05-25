@@ -7,6 +7,7 @@ function App() {
   return (
     <div className='w-full h-screen bg-zinc-900'>
       <h1>{a}</h1>
+      <button className='px-3 py-1 bg-green-700 rounded-md text-s' >click</button>
     </div>
 
 
