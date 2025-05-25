@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import Products from './Products'
 
 function App() {
-  var[a,b] = useState(69)
 
   return (
-    <Products naam="value" data={{age: 25, name: "Sayan"}}/>
+    <Products />
+
+
+    // <Products naam="value" data={{age: 25, name: "Sayan"}}/>
 
 
     // <div className='w-full h-screen bg-zinc-900'>
